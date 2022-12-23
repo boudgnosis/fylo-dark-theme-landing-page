@@ -1,0 +1,412 @@
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  /*-------- 
+	| HEADER |
+	---------*/
+  /* Logo */
+  .navigation__menu-and-logo {
+    padding: 2.2em 2.2em 0 2.2em;
+  }
+
+  .header__container-logo {
+    width: 9em;
+  }
+
+  /* Navigation Menu */
+  .navigation__menu .menu__options .option__link .link {
+    font-size: 1em;
+  }
+
+  /*------ 
+	| HOME |
+	------*/
+  /* Illustration */
+  .home .home__illustration-container {
+    width: 35em;
+  }
+
+  /* Information */
+  .home__information-title {
+    font-size: 3em;
+    max-width: 14.6em;
+  }
+
+  .home__information-text {
+    font-size: 1.5em;
+  }
+
+  /* Button */
+  .btn__home .btn {
+    padding: 1em 7em;
+    font-size: 1.2em;
+  }
+
+  /*---------
+	| SEVICES | 
+	----------*/
+  .services {
+    margin: 3em 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .services__information .serives__information-text {
+    text-align: center;
+  }
+
+  /*-------------- 
+| HOW IT WORKS |
+--------------*/
+  .how__it-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Logo */
+  .logo__works-container {
+    width: 25em;
+    margin: 0 2em 0 0;
+  }
+
+  /*----------------
+| RECOMENDATIONS |
+---------------*/
+
+  .recommendation__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25em;
+  }
+
+  .img__container-quotes {
+    position: relative;
+    top: -10.5em;
+    left: 4em;
+    width: 3em;
+  }
+
+  .card__bruce {
+    margin: 0 3em 3em 3em;
+  }
+
+  /* recomendation text */
+  .recommendation__text-container .recommendation__text {
+    font-size: 1em;
+  }
+
+  /*--------
+| FOOTER |
+-------*/
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: -8em;
+  }
+
+  .form__container {
+    position: relative;
+    top: -13em;
+    width: 45em;
+  }
+
+  .information__form .information__form-title {
+    font-size: 1.5em;
+  }
+
+  .information__form .information__form-text {
+    font-size: 1.1em;
+  }
+
+  .input__email {
+    width: 15em;
+    font-size: 1.2em;
+    padding: 0.7em 0;
+    margin-right: 1em;
+  }
+
+  .btn__send-email {
+    font-size: 1.2em;
+    padding: 0.6em 1em;
+  }
+
+  .information__input-form-btn {
+    position: relative;
+  }
+
+  .footer .form__container .active {
+    position: absolute;
+    top: 7em;
+    left: 1em;
+    font-size: 0.8em;
+    margin: 0;
+  }
+
+  /* Footer logo */
+  .container__logo-footer {
+    position: absolute;
+    top: -1.6em;
+    left: 2.2em;
+    margin: 0;
+    width: 15em;
+  }
+
+  /* Contact */
+  .contact__information {
+    display: flex;
+    align-items: center;
+  }
+
+  .tel__email {
+    margin-left: 4em;
+  }
+
+  .address,
+  .container__mail {
+    margin-left: 0em;
+  }
+
+  .number__tel {
+    margin: 2em 0 2em 0em;
+  }
+
+  /* Nav footer */
+  .footer .menu__navigation-footer {
+    margin: 4em 0 0 0em;
+    display: flex;
+  }
+
+  .second__nav-footer {
+    padding: 0 0 0 2em;
+  }
+  /* rrhh */
+  .twitter__footer {
+    margin: 0 0.5em;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .navigation__menu-and-logo {
+    padding: 4.2em 4.2em 0 4.2em;
+  }
+
+  .header__container-logo {
+    width: 20em;
+  }
+
+  .navigation__menu .menu__options .option__link .link {
+    font-size: 2.2em;
+  }
+
+  .home .home__illustration-container {
+    width: 70em;
+  }
+
+  .home__information-title {
+    font-size: 4em;
+    max-width: 18em;
+  }
+
+  .home__information-text {
+    font-size: 2.5em;
+    max-width: 30em;
+  }
+
+  .btn__home .btn {
+    font-size: 2.2em;
+    padding: 0.8em 4.3em;
+  }
+
+  .services {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .services__container {
+    margin: 1em;
+  }
+
+  .services__logo .services__img {
+    width: 9em;
+  }
+
+  .services__information .services__information-title {
+    font-size: 1.8em;
+  }
+
+  .services__information .serives__information-text {
+    font-size: 1.7em;
+  }
+
+  .how__it-works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo__works-container {
+    width: 50em;
+    margin: 0 4em 0 0;
+  }
+
+  .how__it-works-information .how__it-works-title {
+    font-size: 4.2em;
+    text-align: left;
+    width: 10em;
+  }
+
+  .how__it-works-information .how__it-works-text {
+    font-size: 1.8em;
+    text-align: left;
+  }
+
+  .how__it-works-link-container .how__it-works-link {
+    font-size: 1.5em;
+  }
+
+  .recommendation__cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card__bruce {
+    margin: 0 4em 4em 4em;
+  }
+
+  .img__container-quotes {
+    top: -14.5em;
+    left: 5.5em;
+    width: 5em;
+  }
+
+  .cards__container {
+    width: 33em;
+  }
+
+  .recommendation__text-container .recommendation__text {
+    font-size: 1.5em;
+  }
+
+  .profile__image-recommendation {
+    width: 5em;
+  }
+
+  .profile__name-position .name {
+    font-size: 1.7em;
+  }
+
+  .profile__name-position .position {
+    font-size: 1.5em;
+  }
+
+  .footer {
+    flex-direction: row;
+    position: relative;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .form__container {
+    position: relative;
+    top: -18em;
+    width: 85em;
+  }
+
+  .information__form .information__form-title {
+    font-size: 3em;
+  }
+
+  .information__form .information__form-text {
+    font-size: 2em;
+  }
+
+  .input__email {
+    width: 25em;
+    font-size: 1.7em;
+    padding: 0.7em 0;
+    margin-right: 2em;
+  }
+
+  .btn__send-email {
+    font-size: 1.7em;
+    padding: 0.7em 2em;
+  }
+
+  .information__input-form-btn {
+    position: relative;
+  }
+
+  .footer .form__container .active {
+    position: absolute;
+    top: 8em;
+    left: 2em;
+    font-family: "Open-Sans-Bold";
+    font-size: 1em;
+    margin: 0;
+  }
+
+  .container__logo-footer .logo__footer-img {
+    position: absolute;
+    left: 7em;
+    width: 15em;
+  }
+
+  .contact__information {
+    display: flex;
+    align-items: center;
+  }
+
+  .address,
+  .container__mail {
+    margin-left: 0em;
+  }
+
+  .container__mail {
+    margin: 0 0 0 6em;
+    width: max-content;
+  }
+
+  .number__tel {
+    margin: 0 0 1.5em 6em;
+  }
+
+  .footer .menu__navigation-footer {
+    display: flex;
+    margin: 0;
+  }
+
+  .nav__one-footer {
+    margin-right: 2em;
+  }
+
+  .second__nav-footer {
+    padding-top: 0em;
+  }
+
+  .address .link__address,
+  .number__tel .link__tel,
+  .container__mail .link__mail {
+    font-size: 1.7em;
+  }
+
+  .menu__navigation-footer
+    .nav__options-footer
+    .options__footer
+    .options__links-footer {
+    font-size: 1.5em;
+  }
+  .rrhh__link {
+    font-size: 2em;
+  }
+}

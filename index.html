@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Fylo Dark Theme Landing Page</title>
+    <link
+      type="image/x-icon"
+      href="./assets/icons/favicon-32x32.png"
+      rel="shortcut icon"
+    />
+    <!-- METADATA -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NORMALIZE -->
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <!-- STYLES -->
+    <link href="./css/styles.css" rel="stylesheet" />
+    <!-- FONTS: Open Sans, Raleway -->
+    <link href="./css/fonts.css" rel="stylesheet" />
+    <!-- Responsive -->
+     <link rel="stylesheet" href="./css/mediaQueries.css">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" defer></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" defer></script>
+    <!-- Script validation -->
+    <script src="./javascript/validation.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="navigation__menu-and-logo flex-row">
+      <!-- Logo -->
+      <div class="header__container-logo">
+        <img
+          class="logo"
+          src="./assets/icons/logo.svg"
+          title="Fylo"
+          alt="Logo Fylo"
+          loading="eager"
+        />
+      </div>
+      <!-- Navigation Menu -->
+      <nav class="navigation__menu">
+        <ul class="menu__options flex-row">
+          <li class="option__link">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer"
+              >Features</a
+            >
+          </li>
+          <li class="option__link">
+            <a
+              class="link"
+              href="#team"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Team</a
+            >
+          </li>
+          <li class="option__link">
+            <a class="link" href="#" target="_blank" rel="noopener noreferrer"
+              >Sign In</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- HOME -->
+    <section class="home">
+      <!-- Home Illustration -->
+      <div class="home__illustration-container">
+        <img
+          class="max__width-container-illustration"
+          src="./assets/images/illustration-intro.png"
+          title="Illustration"
+          alt="Illustration depicting two people taking items out of a giant folder."
+          loading="eager"
+        />
+      </div>
+      <!-- Home Information -->
+      <div class="home__information flex-column">
+        <h1 class="home__information-title">
+          All your file in one secure location, accessible anywhere.
+        </h1>
+        <p class="home__information-text">
+          <span translate="no">Fylo</span>
+           store all your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends
+          family, and co-workers.
+        </p>
+      </div>
+      <!-- Home Button -->
+      <div class="btn__home flex-row">
+        <button class="btn" type="button">Get Started</button>
+      </div>
+    </section>
+    <!-- SERVICES -->
+    <main class="services flex-column">
+      <!-- Section files information -->
+      <div class="services__container">
+        <div class="services__logo">
+          <img src="./assets/icons/icon-access-anywhere.svg" alt="Illustration of a computer and a cell phone" class="services__img max__width-container-illustration" title="Icon access anywhere"
+          loading="lazy">
+        </div>
+        <div class="services__information">
+          <h2 class="services__information-title">
+            Access your files, anywhere
+          </h2>
+          <p class="serives__information-text">
+            The ability to use a smartphone, table, or computer to access your account means your files follow you everywhere.
+          </p>
+        </div>
+      </div>
+      <!-- Section security information -->
+      <div class="services__container">
+        <div class="services__logo">
+          <img src="./assets/icons/icon-security.svg" alt="A shield with a check in the center" class="services__img max__width-container-illustration"
+          title="Icon security"
+          loading="lazy">
+        </div>
+        <div class="services__information">
+          <h2 class="services__information-title">
+            Security you can trust
+          </h2>
+          <p class="serives__information-text">
+            2-factor authentication and user-controlled encryption are just a coupie of the security features we allow to help secure your files.
+          </p>
+        </div>
+      </div>
+      <!-- Section collaboration information -->
+      <div class="services__container">     
+        <div class="services__logo">
+          <img src="./assets/icons/icon-collaboration.svg" alt="A relog larger than the three people in front of it." class="services__img max__width-container-illustration" title="Icon collaboration"
+          loading="lazy">
+        </div>
+        <div class="services__information">
+          <h2 class="services__information-title">
+            Real-time collaboration
+          </h2>
+          <p class="serives__information-text">
+            Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+          </p>
+        </div>
+      </div>
+      <!-- Section store information -->
+      <div class="services__container">
+        <div class="services__logo">
+          <img src="./assets/icons/icon-any-file.svg" alt="Illustration showing a folder icon and two files, one an image and the other a text file." class="services__img max__width-container-illustration" title="Icon any file"
+          loading="lazy">
+        </div>
+        <div class="services__information">
+          <h2 class="services__information-title">
+            Store any type of file
+          </h2>
+          <p class="serives__information-text">
+            Whether you're sharing holidays photos or work documents, <span translate="no">Fylo</span> has you covered allowing for all file types to be securely stored and shared.
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- HOW IT WORKS -->
+    <section class="how__it-works">
+      <!-- Logo -->
+      <div class="logo__works-container">
+        <img src="./assets/images/illustration-stay-productive.png" alt="Three people holding floating text boxes."
+        title="Illustration stay productive" class="logo__how-it-works max__width-container-illustration" loading="lazy">
+      </div>
+      <!-- Information -->
+      <div class="how__it-works-information flex-column">
+        <h3 class="how__it-works-title">Stay productive, wherever you are</h3>
+        <p class="how__it-works-text">
+          Never let location be an issue when accessing your files.<span translate="no">Fylo</span> has you covered for all of your file storage needs.
+        </p>
+        <p class="how__it-works-text">
+          Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
+        </p>
+        <div class="how__it-works-link-container">
+          <a class="how__it-works-link flex-row" href="#" target="_blank" rel="noopener noreferrer">See how  Fylo works
+            <div class="icon__row">
+              <img class="icon__row-img" src="./assets/icons/icon-arrow.svg" alt="arrow" loading="lazy">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- RECOMMENDATIONS -->
+    <section class="recommendation__cards flex-column">
+      <!-- card satish patel -->
+      <div class="img__container-quotes">
+        <img class="img__quotes max__width-container-illustration" src="./assets/icons/bg-quotes.png" alt="image quotes" title="Quotes" loading="lazy">
+      </div>
+      <div class="cards__container">
+        <div class="recommendation__text-container">
+          <p class="recommendation__text">
+            <span translate="no">Fylo</span> has improved our team productivity by an order of magnitude. Since making the swtich our team has become a well-olied collaboration machine.   
+          </p>
+        </div>
+        <div class="recommendation__perfil flex-row">
+          <div class="profile__image-recommendation">
+            <img src="./assets/images/profile-1.jpg" alt="profile picture of Satish Patel" class="recommendation__perfil-img max__width-container-illustration" title="Satish Patel" loading="lazy">
+          </div>
+          <div class="profile__name-position">
+            <h4 class="name" translate="no">Satish Patel</h4>
+            <p class="position">Founder & CEO, <span translate="no">Huddle</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- card bruce mckenzi -->
+      <div class="cards__container card__bruce">
+        <div class="recommendation__text-container">
+          <p class="recommendation__text">
+            <span translate="no">Fylo</span> has improved our team productivity by an order of magnitude. Since making the swtich our team has become a well-olied collaboration machine.   
+          </p>
+        </div>
+        <div class="recommendation__perfil flex-row">
+          <div class="profile__image-recommendation">
+            <img src="./assets/images/profile-2.jpg" alt="profile picture of Bruce McKenzie" class="recommendation__perfil-img max__width-container-illustration" title="Bruce McKenzie" loading="lazy">
+          </div>
+          <div class="profile__name-position">
+            <h4 class="name" translate="no">Bruce McKenzie</h4>
+            <p class="position">Founder & CEO, <span translate="no">Huddle</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- card iva boyd -->
+      <div class="cards__container">
+        <div class="recommendation__text-container">
+          <p class="recommendation__text">
+            <span translate="no">Fylo</span> has improved our team productivity by an order of magnitude. Since making the swtich our team has become a well-olied collaboration machine.   
+          </p>
+        </div>
+        <div class="recommendation__perfil flex-row">
+          <div class="profile__image-recommendation">
+            <img src="./assets/images/profile-3.jpg" alt="profile picture of Iva Boyd" class="recommendation__perfil-img max__width-container-illustration" title="Iva Boyd" loading="lazy">
+          </div>
+          <div class="profile__name-position">
+            <h4 class="name" translate="no">Iva Boyd</h4>
+            <p class="position">Founder & CEO, <span translate="no">Huddle</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- Form -->
+      <form action="" class="form__container flex-column">
+        <div class="information__form">
+          <h4 class="information__form-title">Get early access today</h4>
+          <p class="information__form-text">
+            It only take a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.
+          </p>
+        </div>
+        <div class="information__input-form-btn">
+          <input class="input__email" type="email" id="email" placeholder="email@example.com" required>
+          <p class="active__error"  id="active__error">Please enter a valid email address</p>
+          <button class="btn__send-email" id="btn__send" type="button">Get Started For Free</button>
+        </div>
+      </form>
+      <div class="container">
+        <!-- Logo fylo -->
+        <div class="container__logo-footer">
+          <img class="logo__footer-img max__width-container-illustration" src="./assets/icons/logo.svg" alt="Logo Fylo." title="Fylo" loading="lazy">
+        </div>
+        <!-- Contact -->
+        <div class="contact__information">
+          <!-- address -->
+          <address class="address flex-row">
+            <div class="location__icon-container">
+              <img class="icon__location" src="./assets/icons/icon-location.svg" alt="Location icon" loading="lazy">
+            </div>
+            <a class="link__address" href="#" target="_blank" rel="noopener noreferrer" translate="no">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex a labore sed dolores soluta id magnam, natus deserunt quaerat.
+            </a>
+          </address>
+          <!-- Email tel -->
+          <div class="tel__email">
+            <!-- number tel -->
+            <div class="number__tel flex-row">
+              <div class="container__icon-tel">
+                <img src="./assets/icons/icon-phone.svg" alt="Icon phone" class="icon__tel" loading="lazy">
+              </div>
+              <a class="link__tel" href="tel:+1-543-123-4567">+1-543-123-4567</a>
+            </div>
+            <!-- email -->
+            <div class="container__mail flex-row">
+              <div class="container__icon-email">
+                <img src="./assets/icons/icon-email.svg" alt="Icon email." class="icon__email" loading="lazy"> 
+              </div>
+              <a class="link__mail" href="mailto:example@fylo.com" translate="no">mailto:example@fylo.com</a>
+            </div>
+          </div>
+        </div>
+        <!-- Nav footer -->
+        <nav class="menu__navigation-footer">
+          <ul class="nav__options-footer nav__one-footer">
+            <li class="options__footer">
+              <a  class="options__links-footer"href="#" target="_blank" rel="noopener noreferrer">
+                About Us
+              </a>
+            </li>
+            <li class="options__footer">
+              <a  class="options__links-footer"href="#" target="_blank" rel="noopener noreferrer">
+                Jobs
+              </a>
+            </li>
+            <li class="options__footer">
+              <a class="options__links-footer" href="#" target="_blank" rel="noopener noreferrer">
+                Press
+              </a>
+            </li>
+            <li class="options__footer">
+              <a class="options__links-footer" href="#" target="_blank" rel="noopener noreferrer">
+                Blog
+              </a>
+            </li>
+          </ul>
+          <ul class="nav__options-footer second__nav-footer">
+            <li class="options__footer">
+              <a class="options__links-footer" href="#" target="_blank" rel="noopener noreferrer">Contact Us</a>
+            </li>
+            <li class="options__footer">
+              <a class="options__links-footer" href="#" target="_blank" rel="noopener noreferrer">
+                Terms
+              </a>
+            </li>
+            <li class="options__footer">
+              <a class="options__links-footer" href="#" target="_blank" rel="noopener noreferrer">
+                Privacy
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- rrhh -->
+        <div class="rrhh__footer flex-row">
+          <div class="facebook__footer">
+            <a  class="rrhh__link  flex-row"href="#" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </div>
+          <div class="twitter__footer ">
+            <a class="rrhh__link flex-row" href="#" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </div>
+          <div class="instagram__footer ">
+            <a  class="rrhh__link flex-row"href="#" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

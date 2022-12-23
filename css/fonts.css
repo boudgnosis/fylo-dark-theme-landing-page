@@ -1,0 +1,27 @@
+/*---------
+| RALEWAY |
+---------*/
+/* headings, call-to-actions, header, navigation */
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url(../assets/fonts/raleway/static/Raleway-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Raleway-Regular';
+	src: url(../assets/fonts/raleway/static/Raleway-Regular.ttf);
+}
+
+/*---------- 
+| OPEN SANS |
+-----------*/
+/* body */
+@font-face {
+	font-family: 'Open-Sans-Bold';
+	src: url(../assets/fonts/open-sans/static/OpenSans-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Open-Sans-Regular';
+	src: url(../assets/fonts/open-sans/static/OpenSans-Regular.ttf);
+}
