@@ -30,9 +30,9 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com). Coming soon.
-- Solution URL: [This is the solution as seen from Frontend Mentor](). Coming soon.
-- Code solution URL: [GitHub](https://github.com/boudgnosis/fylo-dark-theme-landing-page)
+- Live Site URL: [Add live site URL here](https://boudgnosis.github.io/fylo-dark-theme-landing-page/).
+- Solution URL: [This is the solution as seen from Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-dark-theme-landing-page-VZ0H4NyuEv).
+- Code solution URL: [GitHub](https://github.com/boudgnosis/fylo-dark-theme-landing-page).
 
 ## My process
 
